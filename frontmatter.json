@@ -1,0 +1,92 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "excerpt",
+          "name": "excerpt",
+          "type": "string"
+        },
+        {
+          "title": "coverImage",
+          "name": "coverImage",
+          "type": "string"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "name",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "title": "picture",
+              "name": "picture",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "title": "ogImage",
+          "name": "ogImage",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "url",
+              "name": "url",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "fields",
+          "fields": []
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "next",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "_articles",
+      "path": "[[workspace]]/_articles"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "Git",
+    "Graphql",
+    "Nextjs"
+  ],
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.content.snippets": {}
+}

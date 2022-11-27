@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# next.js
+/.next/
+/out/
+
+# vercel
+.vercel
+
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# frontmatter
+/.frontmatter
