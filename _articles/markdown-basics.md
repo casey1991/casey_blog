@@ -9,7 +9,7 @@ tags:
 categories: []
 slug: markdown-basics
 date: 2022-11-27T07:40:16.275Z
-lastmod: 2022-11-28T08:36:23.895Z
+lastmod: 2022-11-28T13:24:04.989Z
 ---
 
 ### 文本
@@ -58,7 +58,7 @@ Regular text. `This is code.` Regular text.
 
 ### 图片
 
-![Url](/images/articles/markdown-basics-cover.png)
+![Url](https://images.pexels.com/photos/13950924/pexels-photo-13950924.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load)
 
 ### 引用
 

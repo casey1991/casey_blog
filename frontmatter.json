@@ -82,11 +82,7 @@
       "path": "[[workspace]]/_articles"
     }
   ],
-  "frontMatter.taxonomy.tags": [
-    "Git",
-    "Graphql",
-    "Nextjs"
-  ],
+  "frontMatter.taxonomy.tags": ["Git", "Graphql", "Nextjs"],
   "frontMatter.taxonomy.categories": [],
   "frontMatter.content.snippets": {}
 }

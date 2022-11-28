@@ -4,7 +4,7 @@ import React from "react";
 const SnippetArticle = ({ slug, title, excerpt, cover, tags = [] }) => {
   return (
     <Link href={`/articles/${slug}`}>
-      <div className="flex flex-col gap-3 p-3 hover:bg-gray-50 cursor-pointer">
+      <div className="flex flex-col gap-3 p-3 border border-transparent hover:border-gray-100 cursor-pointer rounded-md">
         <div className="flex flex-row items-center gap-3">
           <div className="flex flex-1 flex-col gap-3">
             <h3 className="text-gray-700 text-2xl">{title}</h3>
@@ -16,7 +16,7 @@ const SnippetArticle = ({ slug, title, excerpt, cover, tags = [] }) => {
           />
         </div>
         <div className="flex flex-row items-center gap-3">
-          {tags.map((tag) => (
+          {Array.from(tags).map((tag) => (
             <span key={tag} className="tag">
               {tag}
             </span>
