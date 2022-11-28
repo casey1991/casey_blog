@@ -1,7 +1,7 @@
 ---
 title: Markdown 样式
 excerpt: Markdown 语法博客样式
-coverImage: /images/articles/git-cover.png
+coverImage: /images/articles/markdown-basics-cover.png
 ogImage:
   url: /images/articles/git-cover.png
 tags:
@@ -9,7 +9,7 @@ tags:
 categories: []
 slug: markdown-basics
 date: 2022-11-27T07:40:16.275Z
-lastmod: 2022-11-27T14:49:16.994Z
+lastmod: 2022-11-28T08:36:23.895Z
 ---
 
 ### 文本
@@ -58,7 +58,7 @@ Regular text. `This is code.` Regular text.
 
 ### 图片
 
-![Url](/images/articles/git-cover.png)
+![Url](/images/articles/markdown-basics-cover.png)
 
 ### 引用
 

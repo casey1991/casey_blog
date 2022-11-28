@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav className="border-b border-gray-100 p-3">
-      <div className="container mx-auto flex flex-row justify-center items-center">
+      <div className="container mx-auto max-w-screen-lg flex flex-row justify-center items-center">
         <div className="relative flex flex-row items-center gap-3">
           <span className="absolute ml-4 text-gray-500 pointer-events-none">
             <svg

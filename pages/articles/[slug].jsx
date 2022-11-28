@@ -1,4 +1,5 @@
 import React from "react";
+import { ArticleHeader } from "../../components/ArticleHeader";
 import { ArticleBody } from "../../components/ArticleBody";
 import { getAllArticles, getArticleBySlug } from "../../lib/api";
 import { markdownToHtml } from "../../lib/markdownToHtml";
@@ -6,6 +7,7 @@ import { markdownToHtml } from "../../lib/markdownToHtml";
 export const ArticlePage = ({ article }) => {
   return (
     <div>
+      <ArticleHeader title={article.title} coverImage={article.coverImage} />
       <ArticleBody content={article.content} />
     </div>
   );
@@ -14,7 +16,11 @@ export const ArticlePage = ({ article }) => {
 export default ArticlePage;
 
 export const getStaticProps = async ({ params }) => {
-  const article = getArticleBySlug(params.slug, ["title", "content"]);
+  const article = getArticleBySlug(params.slug, [
+    "title",
+    "coverImage",
+    "content",
+  ]);
   const content = await markdownToHtml(article.content || "");
   return {
     props: {

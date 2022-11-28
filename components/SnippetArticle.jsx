@@ -12,7 +12,7 @@ const SnippetArticle = ({ slug, title, excerpt, cover, tags = [] }) => {
           </div>
           <img
             src={cover}
-            className="aspect-square w-32 border border-gray-100 bg-gray-300 rounded-md"
+            className="aspect-square w-32 border border-gray-100 bg-gray-300 rounded-md object-cover"
           />
         </div>
         <div className="flex flex-row items-center gap-3">
