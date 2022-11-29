@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-gray-100 p-10">
-      <div className="container mx-auto max-w-screen-lg flex flex-row items-center gap-3">
+    <footer className="p-10 border-t border-gray-100">
+      <div className="container flex flex-row items-center max-w-screen-lg gap-3 mx-auto">
         <Link href={"https://github.com/casey1991/casey_blog"} target="_blank">
           <span className="inline-flex p-1 border border-gray-300 rounded-md cursor-pointer hover:text-white hover:bg-black">
             <svg

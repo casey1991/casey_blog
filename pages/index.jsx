@@ -22,7 +22,7 @@ function HomePage({ articles = [] }) {
           </svg>
         </span>
         <input
-          className="px-12 w-full h-12 border border-gray-500 rounded-full"
+          className="w-full h-12 px-12 border border-gray-500 rounded-full"
           type="text"
           placeholder="Search"
         />

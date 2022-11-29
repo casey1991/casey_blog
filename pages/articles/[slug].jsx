@@ -3,10 +3,14 @@ import { ArticleHeader } from "../../components/ArticleHeader";
 import { ArticleBody } from "../../components/ArticleBody";
 import { getAllArticles, getArticleBySlug } from "../../lib/api";
 import { markdownToHtml } from "../../lib/markdownToHtml";
+import Head from "next/head";
 
 export const ArticlePage = ({ article }) => {
   return (
     <div>
+      <Head>
+        <title>{article.title}</title>
+      </Head>
       <ArticleHeader title={article.title} coverImage={article.coverImage} />
       <ArticleBody content={article.content} />
     </div>
