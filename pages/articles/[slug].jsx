@@ -7,7 +7,7 @@ import Head from "next/head";
 
 export const ArticlePage = ({ article }) => {
   return (
-    <div>
+    <div className="flex flex-col gap-3">
       <Head>
         <title>{article.title}</title>
       </Head>
