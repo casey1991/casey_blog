@@ -7,10 +7,14 @@ author:
   picture: ""
 ogImage:
   url: ""
-tags: ""
+tags:
+  - AliYun
+  - Node.js
+  - Ubuntu
+  - ECS
 categories: {}
 date: 2022-12-07T02:49:52.395Z
-lastmod: 2022-12-07T04:08:30.166Z
+lastmod: 2022-12-07T07:06:17.734Z
 ---
 
 ### 通过 ssh 登录服务器
@@ -71,8 +75,8 @@ lastmod: 2022-12-07T04:08:30.166Z
 ### 配置 Nginx
 
 - 查看 nginx 安装目录 `#: nginx -V` 这里是 config 路径是 --conf-path=/etc/nginx/nginx.conf
-- 跳转到 conf 目录 `# cd /etc/nginx`
-- 更改默认 conf `# vim nginx.conf` 输入一下内容
+- 跳转到 conf 目录 `#: cd /etc/nginx`
+- 更改默认 conf `#: vim nginx.conf` 输入一下内容
 
 ```
 http{
@@ -96,5 +100,6 @@ server{
 	server_name <domain>;
 	location /{
 		proxy_pass <项目本地路径 eg: http://127.0.0.1:3000>;
+  }
 }
 ```
