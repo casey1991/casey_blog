@@ -39,10 +39,10 @@
     @apply block bg-gray-800 my-6 p-4 rounded-sm;
   }
   .markdown pre > code {
-    @apply text-white bg-transparent;
+    @apply text-white p-0 bg-transparent;
   }
   .markdown code {
-    @apply bg-gray-100 px-1 rounded-sm;
+    @apply bg-gray-800 text-white p-1 rounded-sm;
   }
   .markdown ul,
   ol {
