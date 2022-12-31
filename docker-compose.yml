@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  blog:
+    build:
+      context: .
+      target: builder
+      dockerfile: Dockerfile
+    command: npm run dev
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - 3001:3000

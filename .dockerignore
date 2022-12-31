@@ -1,0 +1,9 @@
+
+.frontmatter
+.next
+.vscode
+.gockerignore
+.gitignore
+Dockerfile
+frontmatter.json
+node_modules
