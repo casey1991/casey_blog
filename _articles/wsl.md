@@ -12,7 +12,7 @@ tags:
   - Windows
 categories: {}
 date: 2022-12-07T02:49:52.395Z
-lastmod: 2022-12-31T14:31:40.134Z
+lastmod: 2023-01-01T15:11:39.106Z
 ---
 
 ### 安装 WSL
@@ -38,6 +38,16 @@ lastmod: 2022-12-31T14:31:40.134Z
 ```
 
 - 配置默认启动目录：设置>配置文件>Ubuntu>启动目录
+
+### ZSH
+
+- 安装 ZSH
+
+```
+ ~/$: sudo apt install zsh
+```
+
+- 安装 Oh my zsh
 
 ### 移动项目到 Linux 目录下
 
