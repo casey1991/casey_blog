@@ -9,7 +9,7 @@ tags:
 categories: []
 slug: tailwindcss-online-tools
 date: 2022-11-29T14:13:11.325Z
-lastmod: 2023-02-24T09:20:03.296Z
+lastmod: 2023-02-24T09:23:06.831Z
 ---
 
 - [Tailblocks](https://tailblocks.cc/)
